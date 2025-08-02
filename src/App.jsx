@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Status from './Status'; // ✅ Confirm this line is present
+import Status from './status';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,7 +16,7 @@ function App() {
         </button>
       </header>
 
-      <Status /> {/* ✅ Renders the status here */}
+      <Status />
 
       <section className="feed">
         <h2>Recent Posts</h2>
@@ -34,9 +34,20 @@ function App() {
         />
         <h3>Alex Smith</h3>
         <p>Frontend Developer</p>
+
+        {/* View Portfolio Button */}
+        <a
+          href="https://your-portfolio-link.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="portfolio-button"
+        >
+          🚀 View Portfolio
+        </a>
       </div>
     </div>
   );
 }
 
 export default App;
+
