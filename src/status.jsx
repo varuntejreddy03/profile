@@ -1,4 +1,4 @@
 function Status() {
-  return <p id="user-status">🟢 Status: online</p>;
+  return <p id="user-status">Status: online</p>;
 }
 export default Status;
