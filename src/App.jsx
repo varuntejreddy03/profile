@@ -33,7 +33,7 @@ function App() {
           alt="Profile"
         />
         <h3>Alex Smith</h3>
-        <p>Frontend Developer</p>
+        <span>Frontend Developer</span>
 
         {/* View Portfolio Button */}
         <a
